@@ -5,10 +5,13 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
 	<header>
 		<nav>
-			<img src="@/assets/logo.svg" alt="" />
+			<RouterLink to="/">
+				<img src="@/assets/logo.svg" alt="" />
+			</RouterLink>
 			<div class="options">
-				<RouterLink to="/">Home</RouterLink>
 				<RouterLink to="/about">About</RouterLink>
+				<RouterLink to="/resume">Resume</RouterLink>
+				<RouterLink to="/projects">Projects</RouterLink>
 			</div>
 		</nav>
 	</header>
@@ -34,5 +37,10 @@ img {
 	margin-left: auto;
 	display: flex;
 	gap: 1rem;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
 </style>
