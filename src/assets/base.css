@@ -2,6 +2,8 @@
 :root {
 	/* Theme colors */
 	--primary: #7bbeeb;
+	--bg: #222222;
+	--text: #222222;
 
 	--vt-c-white: #ffffff;
 	--vt-c-white-soft: #f8f8f8;

@@ -23,7 +23,7 @@ nav {
 	align-items: center;
 	justify-content: center;
 	/* background: #252525; */
-	background-color: #7bbeeb;
+	background-color: var(--primary);
 	padding-inline: 1rem;
 	height: 3rem;
 }
@@ -42,5 +42,9 @@ img {
 a {
 	color: white;
 	text-decoration: none;
+}
+
+a:hover {
+	color: var(--dark);
 }
 </style>
